@@ -7,8 +7,7 @@
 </p>
 <hr>
 
-
-# Introduction
+### Introduction
 Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
 
 Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”
@@ -17,13 +16,15 @@ Danny was sold on the idea, but he knew that pizza alone was not going to help h
 
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
-# Entity Relationship Diagram
+### Entity Relationship Diagram
 <div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/images/case2_entity.png?raw=true" alt='case2_entity' width='700'></div>
 
-# Tables
+<hr>
+
+### Tables
 <details><summary> All the tables used in the challenge</summary>
    
-### Table 1: runners
+   ### Table 1: runners
    
  <table>
   <thead>
@@ -53,7 +54,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
 </table>
 <hr>
 
-### Table 2: customer_orders
+   ### Table 2: customer_orders
 
 <table>
     <thead>
@@ -183,7 +184,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
   </table>
 <hr>
 
-### Table 3: runner_orders
+   ### Table 3: runner_orders
 
 <table>
     <thead>
@@ -281,7 +282,7 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
   </table>
   <hr>
   
-  ### Table 4: pizza_names
+   ### Table 4: pizza_names
     
   <table>
     <thead>
@@ -387,8 +388,9 @@ Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runn
   </table>
 
   </details>
+<hr>
 
-# Case Study Questions
+### Case Study Questions
 
 This case study has LOTS of questions - they are broken up by area of focus including:
 
