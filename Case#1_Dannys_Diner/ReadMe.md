@@ -118,3 +118,50 @@ Danny has shared with you 3 key datasets for this case study:
     </tbody>
   </table>
 
+## Table 2: menu
+<table>
+    <thead>
+      <tr>
+        <th>product_id</th>
+        <th>product_name</th>
+        <th>price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>sushi</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>curry</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>ramen</td>
+        <td>12</td>
+      </tr>
+    </tbody>
+  </table>
+
+ ## Table 3: members
+<table>
+    <thead>
+      <tr>
+        <th>customer_id</th>
+        <th>join_date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A</td>
+        <td>2021-01-07</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-01-09</td>
+      </tr>
+    </tbody>
+  </table>
