@@ -1,5 +1,5 @@
 <p align="center">
-# Case Study #1 - Danny's Diner
+<h1> Case Study #1 - Danny's Diner </h1>
 </p>
 
 ![Alt text](https://8weeksqlchallenge.com/images/case-study-designs/1.png)
