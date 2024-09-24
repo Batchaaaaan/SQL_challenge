@@ -27,7 +27,94 @@ Danny has shared with you 3 key datasets for this case study:
 - members
 
 # Entity Relationship Diagram
-<div align='center'><img src="https://github.com/user-attachments/assets/c090890c-aa6d-4865-9f65-1453a609c4b4" alt='case1_entity' width='700'></div>
+<div align='center'><img src="https://github.com/user-attachments/assets/c090890c-aa6d-4865-9f65-1453a609c4b4" alt='case1_entity' width='500'></div>
 
-
+# Tables 
+ ## Table 1: sales
+ <table>
+    <thead>
+      <tr>
+        <th>customer_id</th>
+        <th>order_date</th>
+        <th>product_id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A</td>
+        <td>2021-01-01</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>2021-01-01</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>2021-01-07</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>2021-01-10</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>2021-01-11</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>2021-01-11</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-01-01</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-01-02</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-01-04</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-01-11</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-01-16</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>2021-02-01</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>2021-01-01</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>2021-01-01</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>2021-01-07</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
 
