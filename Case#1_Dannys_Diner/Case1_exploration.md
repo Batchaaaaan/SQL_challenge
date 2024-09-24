@@ -1,11 +1,18 @@
 # Case Study Questions
 
 ## 1. What is the total amount each customer spent at the restaurant?
-SELECT sales.customer_id, SUM(menu.price) 
-FROM sales JOIN menu
-ON sales.product_id = menu.product_id
-GROUP BY sales.customer_id;
+	SELECT sales.customer_id, SUM(menu.price) totalAmount
+	FROM sales JOIN menu
+	ON sales.product_id = menu.product_id
+	GROUP BY sales.customer_id;
+### Output:
+customer_id | totalamount
+| -- | --
+B|74
+C|36
+A|76
 
+<hr>
 ## 2. How many days has each customer visited the restaurant?
 SELECT customer_id,  COUNT(order_date) 
 FROM (SELECT customer_id, order_date FROM sales
