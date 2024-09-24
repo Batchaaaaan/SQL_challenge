@@ -30,7 +30,7 @@ Danny has shared with you 3 key datasets for this case study:
 <div align='center'><img src="https://github.com/user-attachments/assets/c090890c-aa6d-4865-9f65-1453a609c4b4" alt='case1_entity' width='500'></div>
 
 # Tables 
- ## Table 1: sales
+ - ## Table 1: sales
  <table>
     <thead>
       <tr>
@@ -118,7 +118,7 @@ Danny has shared with you 3 key datasets for this case study:
     </tbody>
   </table>
 
-## Table 2: menu
+- ## Table 2: menu
 <table>
     <thead>
       <tr>
@@ -146,7 +146,7 @@ Danny has shared with you 3 key datasets for this case study:
     </tbody>
   </table>
 
- ## Table 3: members
+ - ## Table 3: members
 <table>
     <thead>
       <tr>
