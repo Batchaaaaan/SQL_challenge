@@ -18,7 +18,7 @@ Danny was sold on the idea, but he knew that pizza alone was not going to help h
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
 # Entity Relationship Diagram
-<div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/Case#2_Pizza_Runner/images/case2_entity.png" alt='case2_entity' width='200'></div>
+<div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/images/case2_entity.png?raw=true" alt='case2_entity' width='700'></div>
 
 # Tables
 <details><summary> All the tables used in the challenge</summary>
