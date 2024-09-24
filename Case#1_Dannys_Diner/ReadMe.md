@@ -27,7 +27,7 @@ Danny has shared with you 3 key datasets for this case study:
 - members
 
 # Entity Relationship Diagram
-<img src='https://github.com/user-attachments/assets/82029db3-62ee-4c1c-bf66-159c8171b4a1' alt='case1_entity' width='300')
+<img src="C:\Users\HP\Downloads\download (2).png" alt='case1_entity' width='300')
 
 
 
