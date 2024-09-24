@@ -1,20 +1,18 @@
-/* --------------------
-   Case Study Questions
-   --------------------*/
+# Case Study Questions
 
--- 1. What is the total amount each customer spent at the restaurant?
+1. What is the total amount each customer spent at the restaurant?
 SELECT sales.customer_id, SUM(menu.price) 
 FROM sales JOIN menu
 ON sales.product_id = menu.product_id
 GROUP BY sales.customer_id;
 
--- 2. How many days has each customer visited the restaurant?
+2. How many days has each customer visited the restaurant?
 SELECT customer_id,  COUNT(order_date) 
 FROM (SELECT customer_id, order_date FROM sales
 GROUP BY customer_id, order_date) AS derivedTable
 GROUP BY customer_id;
 
--- 3. What was the first item from the menu purchased by each customer?
+3. What was the first item from the menu purchased by each customer?
 SELECT s.customer_id, m.product_name 
 FROM sales s JOIN menu m
 ON s.product_id = m.product_id
