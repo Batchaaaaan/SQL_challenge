@@ -15,6 +15,7 @@ Danny was scrolling through his Instagram feed when something really caught his 
 Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire - so he had one more genius idea to combine with it - he was going to Uberize it - and so Pizza Runner was launched!
 
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
+<hr>
 
 ### Entity Relationship Diagram
 <div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/images/case2_entity.png?raw=true" alt='case2_entity' width='700'></div>
