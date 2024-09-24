@@ -1,4 +1,4 @@
-<h1 style="text-align:center;"> Case Study #1 - Danny's Diner</h1>
+<center>Case Study #1 - Danny's Diner</center>
 
 ![Alt text](https://8weeksqlchallenge.com/images/case-study-designs/1.png)
 
