@@ -4,7 +4,7 @@
 
 <hr>
 <p align='center'>This is the first Case Study of 8 Weeks SQL Challenge by DannyMa.
-<a href="https://8weeksqlchallenge.com/case-study-4/" rel="nofollow">Click here to view the challenge</a>
+<a href="https://8weeksqlchallenge.com/case-study-4/" rel="nofollow">Click here to view the challenge.</a>
 </p>
 <hr>
 
