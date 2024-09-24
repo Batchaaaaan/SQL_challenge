@@ -1,6 +1,7 @@
 # Case Study Questions
 
-## 1. What is the total amount each customer spent at the restaurant?
+### 1. What is the total amount each customer spent at the restaurant?
+
 ```sql
 SELECT sales.customer_id, SUM(menu.price) totalAmount
 FROM sales JOIN menu
@@ -14,9 +15,11 @@ B|74
 C|36
 A|76
 
+Customer A spent the most with 76, followed by Customer B with 74 and Customer C having the least with 36.
 <hr>
 
-## 2. How many days has each customer visited the restaurant?
+### 2. How many days has each customer visited the restaurant?
+
 ```sql
 SELECT customer_id,  COUNT(order_date) AS numDays
 FROM (
@@ -27,15 +30,17 @@ FROM (
 GROUP BY customer_id;
 ```
 
-## Output:
+### Output:
  customer_id | numdays
 | -- | -- |
  B           |       6
  C           |       2
  A           |       4
+
+ Customer B have the most days with 6 total visits followed, Customer A with 4 visits and lastly, Customer C with 2 visits.
 <hr>
 
-## 3. What was the first item from the menu purchased by each customer?
+### 3. What was the first item from the menu purchased by each customer?
 ```sql
 SELECT s.customer_id, m.product_name
 FROM sales s JOIN menu m
@@ -47,7 +52,7 @@ WHERE s.order_date = (
 	)
 GROUP BY s.customer_id, m.product_name;
 ```
-## Output:
+### Output:
  customer_id | product_name
 | -- | -- |
  A           | sushi
@@ -58,7 +63,7 @@ GROUP BY s.customer_id, m.product_name;
  Customer A had sushi and curry as its first order. Customer B had curry while customer C had ramen.
 <hr>
 
-## 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 ```sql
 SELECT m.product_name, COUNT(*) AS total_count 
 FROM sales s JOIN menu m
@@ -75,7 +80,7 @@ LIMIT 1;
  Ramen is the most sold product with 8 units sold.
 <hr>
 
-## 5. Which item was the most popular for each customer?
+### 5. Which item was the most popular for each customer?
 ```sql
 SELECT customer_id, product_name, orderedCount
 FROM (
@@ -102,7 +107,7 @@ WHERE ranking = 1;
  Customer A ordered ramen the most with 3 unit count. Customer B ordered sushi, curry and ramen with 2 units each while Customer C ordered ramen the most with 3 unit.
 <hr>
 
-## 6. Which item was purchased first by the customer after they became a member?
+### 6. Which item was purchased first by the customer after they became a member?
 ```sql
 SELECT customer_id, product_name
 FROM (
@@ -126,7 +131,7 @@ WHERE ranking = 1;
  There are only 2 members registered. Customer A ordered curry after becoming member while B ordered sushi.
 <hr>
 	
-## 7. Which item was purchased just before the customer became a member?
+### 7. Which item was purchased just before the customer became a member?
 ```sql
 SELECT customer_id, product_name
 FROM (
@@ -151,7 +156,7 @@ WHERE ranking = 1;
  Customer A last ordered sushi and curry before becoming a member while Customer B ordered sushi.
 <hr>
 
-## 8. What is the total items and amount spent for each member before they became a member?
+### 8. What is the total items and amount spent for each member before they became a member?
 ```sql
 SELECT s.customer_id, COUNT(*), SUM(m.price) totalSpent
 FROM sales s JOIN menu m
@@ -171,7 +176,7 @@ GROUP BY s.customer_id;
 Customer A spent 25 units on 2 items while Customer B spent 40 units on 3 items.
  <hr>
  
-## 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+### 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 ```sql
 SELECT customer_id, SUM(price)
 FROM (
@@ -195,7 +200,7 @@ GROUP BY customer_id;
  Customer B have the highest points with 960, followed by customer A with 860 while Customer C had the lowest with 360.
 <hr>
 
-## 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 ```sql
 SELECT customer_id, SUM(price)
 FROM (
@@ -225,7 +230,7 @@ GROUP BY customer_id;
  <hr>
  
 # BONUS QUESTIONS 
-- ## JOIN ALL
+- ### JOIN ALL
 	<details><summary>Recreate the following table output using the available data:</summary>
 		<table>
 	    <thead>
@@ -362,7 +367,7 @@ GROUP BY customer_id;
 	ORDER BY s.customer_id, s.order_date;
 	```
 
-- ## RANK ALL
+- ### RANK ALL
 	<details><summary>Recreate the following table output using the available data:</summary>
 		<table>
     <thead>
