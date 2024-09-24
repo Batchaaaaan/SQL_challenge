@@ -1,6 +1,6 @@
 # Case Study Questions
 
-# 1. What is the total amount each customer spent at the restaurant?
+## 1. What is the total amount each customer spent at the restaurant?
 SELECT sales.customer_id, SUM(menu.price) 
 FROM sales JOIN menu
 ON sales.product_id = menu.product_id
