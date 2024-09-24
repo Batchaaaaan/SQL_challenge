@@ -3,5 +3,5 @@
 <div align='center'><img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="case1_image" width="500"/></div>
 
 <hr>
-This is the First Challenge from 8 Weeks SQL Challenge. [Click here for the link](https://8weeksqlchallenge.com/case-study-1/)
+<a href="https://8weeksqlchallenge.com/case-study-4/" rel="nofollow">Click here to view the full challenge</a>
 <hr>
