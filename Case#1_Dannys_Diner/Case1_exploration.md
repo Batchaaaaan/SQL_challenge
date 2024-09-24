@@ -6,13 +6,13 @@ FROM sales JOIN menu
 ON sales.product_id = menu.product_id
 GROUP BY sales.customer_id;
 
-# 2. How many days has each customer visited the restaurant?
+## 2. How many days has each customer visited the restaurant?
 SELECT customer_id,  COUNT(order_date) 
 FROM (SELECT customer_id, order_date FROM sales
 GROUP BY customer_id, order_date) AS derivedTable
 GROUP BY customer_id;
 
-# 3. What was the first item from the menu purchased by each customer?
+## 3. What was the first item from the menu purchased by each customer?
 SELECT s.customer_id, m.product_name 
 FROM sales s JOIN menu m
 ON s.product_id = m.product_id
@@ -21,7 +21,7 @@ WHERE s.order_date = (
 	FROM sales
 	WHERE customer_id = s.customer_id);
 
-# 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+## 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 SELECT m.product_name, count(*) as total_count 
 FROM sales s JOIN menu m
 ON s.product_id = m.product_id
@@ -29,7 +29,7 @@ GROUP BY m.product_name
 ORDER BY total_count DESC
 LIMIT 1;
 
-# 5. Which item was the most popular for each customer?
+## 5. Which item was the most popular for each customer?
 SELECT customer_id, product_name, total
 FROM (
 	SELECT customer_id, product_name, total, rank() OVER (PARTITION BY customer_id ORDER BY total DESC) as r
@@ -42,7 +42,7 @@ FROM (
 	) as derivedTable2
 WHERE r = 1;
 
-# 6. Which item was purchased first by the customer after they became a member?
+## 6. Which item was purchased first by the customer after they became a member?
 SELECT customer_id, product_name, order_date
 FROM (
 	SELECT s.customer_id, m.product_name, order_date, rank() OVER (PARTITION BY customer_id 
@@ -56,7 +56,7 @@ FROM (
   ) as derivedTable
 WHERE r = 1;
 	
-# 7. Which item was purchased just before the customer became a member?
+## 7. Which item was purchased just before the customer became a member?
 SELECT customer_id, product_name, order_date
 FROM (
 	SELECT s.customer_id, m.product_name, order_date, rank() OVER (PARTITION BY customer_id 
@@ -70,7 +70,7 @@ FROM (
   ) as derivedTable
 WHERE r = 1;
 
-# 8. What is the total items and amount spent for each member before they became a member?
+## 8. What is the total items and amount spent for each member before they became a member?
 SELECT s.customer_id, SUM(m.price) total_spent
 FROM sales s JOIN menu m
 ON s.product_id = m.product_id
@@ -80,7 +80,7 @@ WHERE s.order_date < (
 		WHERE customer_id = s.customer_id)
 GROUP BY s.customer_id;
 
-# 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+## 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 SELECT customer_id, SUM(price)
 FROM (
 	SELECT s.customer_id, m.product_name, 
@@ -94,7 +94,7 @@ GROUP BY customer_id;
 
 
 SELECT date_part()
-# 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+## 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 SELECT customer_id, SUM(price)
 FROM (
   SELECT s.customer_id, m.product_name,
