@@ -1,12 +1,12 @@
 <h1><p align="center"> Case Study #1 - Danny's Diner </p></h1>
 
 <div align='center'><img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="case1_image" width="500"/></div>
-
 <hr>
 <p align='center'>This is the first Case Study of 8 Weeks SQL Challenge by DannyMa.
 <a href="https://8weeksqlchallenge.com/case-study-4/" rel="nofollow">Click here to view.</a>
 </p>
 <hr>
+
 
 # Introduction
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
@@ -27,7 +27,7 @@ Danny has shared with you 3 key datasets for this case study:
 - members
 
 # Entity Relationship Diagram
-<img src="C:\Users\HP\Downloads\download (2).png" alt='case1_entity' width='300')
+<div> <img src="https://github.com/user-attachments/assets/c090890c-aa6d-4865-9f65-1453a609c4b4" alt='case1_entity' width='300'></div>
 
 
 
