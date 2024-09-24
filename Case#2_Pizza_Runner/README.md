@@ -18,7 +18,11 @@ Danny was sold on the idea, but he knew that pizza alone was not going to help h
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
 # Entity Relationship Diagram
-<div align='center'><img src="https://github.com/user-attachments/assets/b1b8fe9e-a052-4836-b3fa-7e056134ae70" alt='case1_entity' width='500'></div>
+<div align='center'><img src= alt='case2_entity' width='300'></div>
+
+
+
+
 
 # Tables
 <details><summary> All the tables used in the challenge</summary>
