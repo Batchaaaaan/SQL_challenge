@@ -26,5 +26,6 @@ Danny has shared with you 3 key datasets for this case study:
 - menu
 - members
 
-- ![image](https://github.com/user-attachments/assets/4943eb61-68a3-43ce-8d88-54d7cd14ac6c)
+![image](https://github.com/user-attachments/assets/f0d18adb-e0f6-4cf4-ab9a-a717867a8f5b)
+
 
