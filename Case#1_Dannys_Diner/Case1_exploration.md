@@ -229,7 +229,8 @@ GROUP BY customer_id;
  Customer A have the the highest points with 1370 while Customer B have 820 points.
  <hr>
  
-# BONUS QUESTIONS 
+### BONUS QUESTIONS 
+
 - ### JOIN ALL
 	<details><summary>Recreate the following table output using the available data:</summary>
 		<table>
@@ -366,6 +367,8 @@ GROUP BY customer_id;
 	ON m.product_id = s.product_id
 	ORDER BY s.customer_id, s.order_date;
 	```
+
+<hr>
 
 - ### RANK ALL
 	<details><summary>Recreate the following table output using the available data:</summary>
