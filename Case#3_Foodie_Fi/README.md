@@ -17,7 +17,7 @@ Danny created Foodie-Fi with a data driven mindset and wanted to ensure all futu
 <hr>
 
 ### Entity Relationship Diagram
-<div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/images/case2_entity.png?raw=true" alt='case2_entity' width='700'></div>
+<div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%233_Foodie_Fi/images/case-study-3-erd.png?raw=true" alt='case2_entity' width='700'></div>
 
 <hr>
 
