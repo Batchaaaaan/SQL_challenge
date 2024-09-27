@@ -1,6 +1,6 @@
 # B. Runner and Customer Experience
 
-**Note**: Table Cleaning was executed first before data exploration. [Click here to view.](https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/scripts/Case2_cleaning.sql)
+###### **Note**: Table Cleaning was executed first before data exploration. [Click here to view.](https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/scripts/Case2_cleaning.sql)
 
 
 ### 1.How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
