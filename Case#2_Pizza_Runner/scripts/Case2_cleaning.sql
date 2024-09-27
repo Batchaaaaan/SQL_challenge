@@ -3,12 +3,14 @@ UPDATE customer_orders
 SET 
 exclusions = 
 	CASE
-		WHEN exclusions = 'null' THEN NULL 
+		WHEN exclusions = 'null' THEN NULL
+		wHEN exclusions = '' THEN NULL
 		ELSE exclusions
 	END,
 extras =
 	CASE
 		WHEN extras = 'null' THEN NULL
+		WHEN extras = '' THEN NULL
 		ELSE extras
 	END;
 
@@ -37,6 +39,7 @@ duration =
 cancellation =
 	CASE
 		WHEN cancellation = 'null' THEN NULL 
+		WHEN cancellation = '' THEN NULL
 		ELSE cancellation
 	END
 ;
