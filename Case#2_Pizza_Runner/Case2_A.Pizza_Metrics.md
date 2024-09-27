@@ -1,6 +1,6 @@
 # A. Pizza Metrics
 
-**Note**: Table Cleaning was executed first before data exploration. [Click here to view.](https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/scripts/Case2_cleaning.sql)
+###### **Note**: Table Cleaning was executed first before data exploration. [Click here to view.](https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%232_Pizza_Runner/scripts/Case2_cleaning.sql)
 ### 1.How many pizzas were ordered?
 ```sql
 SELECT COUNT(*) pizzas_Ordered
