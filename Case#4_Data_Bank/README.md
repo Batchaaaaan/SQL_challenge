@@ -22,7 +22,7 @@ The management team at Data Bank want to increase their total customer base - bu
 This case study is all about calculating metrics, growth and helping the business analyse their data in a smart way to better forecast and plan for their future developments!
 
 # Entity Relationship Diagram
-<div align='center'><img src="https://github.com/user-attachments/assets/c090890c-aa6d-4865-9f65-1453a609c4b4" alt='case1_entity' width='500'></div>
+<div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%234_Data_Bank/images/case-study-4-erd.png?raw=true" alt='case4_entity' width='500'></div>
 
 # Tables 
 <details><summary>All tables are available here</summary>
