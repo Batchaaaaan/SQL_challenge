@@ -27,139 +27,22 @@ For this case study there is only a single table: weekly_sales
 
 The Entity Relationship Diagram is shown below with the data types made clear, please note that there is only this one table - hence why it looks a little bit lonely!
 
-# Tables 
- - ## Table 1: sales
- <table>
-    <thead>
-      <tr>
-        <th>customer_id</th>
-        <th>order_date</th>
-        <th>product_id</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>A</td>
-        <td>2021-01-01</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>2021-01-01</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>2021-01-07</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>2021-01-10</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>2021-01-11</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>2021-01-11</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-01-01</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-01-02</td>
-        <td>2</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-01-04</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-01-11</td>
-        <td>1</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-01-16</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-02-01</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>2021-01-01</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>2021-01-01</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>2021-01-07</td>
-        <td>3</td>
-      </tr>
-    </tbody>
-  </table>
+<div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%235_Data_Mart/images/case-study-5-erd.png?raw=true" alt="case5_image" width="400">
+</div>
 
-- ## Table 2: menu
-<table>
-    <thead>
-      <tr>
-        <th>product_id</th>
-        <th>product_name</th>
-        <th>price</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>sushi</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>curry</td>
-        <td>15</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>ramen</td>
-        <td>12</td>
-      </tr>
-    </tbody>
-  </table>
+# Table
+ - ## Table: weekly_sales
+ ###### Note: This is only an example rows. Not all data are shown.
+| week_date | region        | platform | segment | customer_type | transactions | sales      |
+|-----------|---------------|----------|---------|---------------|--------------|------------|
+| 9/9/20    | OCEANIA       | Shopify  | C3      | New           | 610          | 110033.89  |
+| 29/7/20   | AFRICA        | Retail   | C1      | New           | 110692       | 3053771.19 |
+| 22/7/20   | EUROPE        | Shopify  | C4      | Existing      | 24           | 8101.54    |
+| 13/5/20   | AFRICA        | Shopify  | null    | Guest         | 5287         | 1003301.37 |
+| 24/7/19   | ASIA          | Retail   | C1      | New           | 127342       | 3151780.41 |
+| 10/7/19   | CANADA        | Shopify  | F3      | New           | 51           | 8844.93    |
+| 26/6/19   | OCEANIA       | Retail   | C3      | New           | 152921       | 5551385.36 |
+| 29/5/19   | SOUTH AMERICA | Shopify  | null    | New           | 53           | 10056.2    |
+| 22/8/18   | AFRICA        | Retail   | null    | Existing      | 31721        | 1718863.58 |
+| 25/7/18   | SOUTH AMERICA | Retail   | null    | New           | 2136         | 81757.91   |
 
- - ## Table 3: members
-<table>
-    <thead>
-      <tr>
-        <th>customer_id</th>
-        <th>join_date</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>A</td>
-        <td>2021-01-07</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>2021-01-09</td>
-      </tr>
-    </tbody>
-  </table>
