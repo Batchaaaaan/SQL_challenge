@@ -30,8 +30,10 @@ The Entity Relationship Diagram is shown below with the data types made clear, p
 <div align='center'><img src="https://github.com/Batchaaaaan/SQL_challenge/blob/main/Case%235_Data_Mart/images/case-study-5-erd.png?raw=true" alt="case5_image" width="400">
 </div>
 
+<hr>
+
 # Table
- - ## Table: weekly_sales
+ - ### Table: weekly_sales
  ###### Note: This is only an example rows. Not all data are shown.
 | week_date | region        | platform | segment | customer_type | transactions | sales      |
 |-----------|---------------|----------|---------|---------------|--------------|------------|
