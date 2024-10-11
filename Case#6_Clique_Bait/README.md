@@ -3,7 +3,7 @@
 <div align='center'><img src="https://8weeksqlchallenge.com/images/case-study-designs/6.png" alt="case6_image" width="500"/></div>
 <hr>
 <p align='center'>This is the Sixth Case Study of 8 Weeks SQL Challenge by DannyMa.
-<a href="https://8weeksqlchallenge.com/case-study-1/" rel="nofollow">Click here to view.</a>
+<a href="https://8weeksqlchallenge.com/case-study-6/" rel="nofollow">Click here to view.</a>
 </p>
 <hr>
 
